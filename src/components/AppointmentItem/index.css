@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.list-item-container {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 16px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item-container {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    min-width: 297px;
+  }
+}
+
+.star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-style-btn {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .name-style-btn {
+    font-size: 18px;
+  }
+}
+
+.star-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.star-image {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .star {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.date-text {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .date-text {
+    font-size: 16px;
+  }
+}
